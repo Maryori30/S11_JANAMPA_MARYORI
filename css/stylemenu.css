@@ -1,0 +1,36 @@
+*{
+    margin:0;
+}
+.page{
+    border:1px solid green;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius:15px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.boton{
+    display: inline-block;
+    margin:15px 10px;
+    border-radius:15px;
+    padding:10px;
+    background-color: green;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:white;
+    /*transition: 3000ms;*/
+
+} 
+.boton:hover{
+    opacity:0.8;
+    color:black;
+    background-color: brown;
+}
+.boton:active{
+    transform:scale(0.90)
+}
